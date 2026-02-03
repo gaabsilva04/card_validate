@@ -79,14 +79,3 @@ res = validate_card('4111111111111111')
 print(res)
 # -> {'valid': True, 'brand': 'Visa', 'errors': []}
 ```
-
----
-
-## 🛠️ Sugestões de melhorias
-- Adicionar testes unitários com `pytest`.
-- Aceitar arquivos CSV/JSON e processar em lote.
-- Internacionalizar mensagens/saídas.
-
----
-
-Se quiser, posso **adicionar testes unitários** e um comando `--file` para processar vários números de uma vez. ⚡
